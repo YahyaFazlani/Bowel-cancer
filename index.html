@@ -10,14 +10,15 @@
     <title>Ever Heard Of Bowel Cancer?</title>
 </head>
 
-<body>
-    <header class="text-center">
+<body class="text-center mx-auto">
+    <header>
         <h1>Ever Heard of Bowel Cancer?</h1>
     </header>
 
     <article>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        <p class="paragraph" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et
             dolore
             magna aliqua. Convallis tellus id interdum velit. Pharetra vel turpis nunc eget lorem. Purus faucibus
             ornare
@@ -27,29 +28,41 @@
             a.
             Aliquam sem fringilla ut morbi tincidunt.</p>
 
-        <p>Causes:</p>
-        <ul>
-            <li>point one</li>
-            <li>point two</li>
-            <li>point three</li>
-        </ul>
 
-        <p>Effects:</p>
-        <ul>
-            <li>point one</li>
-            <li>point two</li>
-            <li>point three</li>
-        </ul>
+        <div class="container p-3">
+            <div class="row justify-content-center mb-4">
 
-        <p>Solutions:</p>
-        <ul>
-            <li>point one</li>
-            <li>point two</li>
-            <li>point three</li>
-        </ul>
+                <div class="points">
+                    <span class="col-md-2 offset-md-4 offset-lg-4">Causes:</span><br>
+                    <ul>
+                        <li>point one</li>
+                        <li>point two</li>
+                        <li>point three</li>
+                    </ul>
+                </div>
+
+                <div class="points">
+                    <span class="col-md-2 offset-md-4 offset-lg-4">Effects:</span><br>
+                    <ul>
+                        <li>point one</li>
+                        <li>point two</li>
+                        <li>point three</li>
+                    </ul>
+                </div>
+
+                <div class="points">
+                    <span class="col-md-2offset-md-3 offset-lg-4">Solutions:</span><br>
+                    <ul>
+                        <li>point one</li>
+                        <li>point two</li>
+                        <li>point three</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <!-- Trigger the Modal -->
-        <img id="poster" src="./assets/img/img.jpg" alt="Poster" style="width:100%;max-width:300px">
+        <img id="poster" src="./assets/img/img.jpg" alt="Poster" style="width:100%;max-width:600px">
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
