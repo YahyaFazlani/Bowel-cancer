@@ -3,6 +3,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 30px;
 }
 
 #poster:hover {
@@ -93,4 +94,26 @@
     .modal-content {
         width: 100%;
     }
+}
+
+/* My compnents */
+.points {
+    /* margin: 10px 8px 7px 8px; */
+    padding-right: 30px;
+}
+
+.paragraph {
+    margin: 20px 40px;
+}
+
+body {
+    background-image: linear-gradient(#C45A5A, #5570A7);
+}
+
+article, header {
+    color: rgb(218, 214, 214);
+}
+
+.points {
+    border: 2px solid rgb(218, 214, 214);
 }
