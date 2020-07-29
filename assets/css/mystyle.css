@@ -95,25 +95,3 @@
         width: 100%;
     }
 }
-
-/* My compnents */
-.points {
-    /* margin: 10px 8px 7px 8px; */
-    padding-right: 30px;
-}
-
-.paragraph {
-    margin: 20px 40px;
-}
-
-body {
-    background-image: linear-gradient(#C45A5A, #5570A7);
-}
-
-article, header {
-    color: rgb(218, 214, 214);
-}
-
-.points {
-    border: 2px solid rgb(218, 214, 214);
-}
