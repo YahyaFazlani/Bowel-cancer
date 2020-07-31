@@ -104,16 +104,21 @@ html {
 }
 
 /* my css */
-#causes, #effects, #prevention {
+#causes,
+#effects,
+#prevention {
     font-size: 25px !important;
     font-weight: bold;
 }
+
 #main-heading {
     font-weight: bolder;
     margin-bottom: 30px;
 }
 
-#causes:target, #effects:target, #prevention:target  {
+#causes:target,
+#effects:target,
+#prevention:target {
     text-decoration: underline;
 }
 
@@ -160,8 +165,23 @@ article {
 
 @media only screen and (max-width:992px) {
     .card {
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+        margin: 0 auto;
+        /* Added */
+        float: none;
+        /* Added */
+        margin-bottom: 10px;
+        /* Added */
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .nav-link.active {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:285px) {
+    .nav-link.active {
+        font-size: 12px;
     }
 }
