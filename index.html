@@ -4,69 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\css\mystyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets\css\style.css">
     <link rel="shortcut icon" href="./assets/img/favicon.ico">
-    <title>Ever Heard Of Bowel Cancer?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Bowel Cancer - Causes, Effects, Solutions</title>
 </head>
 
 <body>
-    <header>
-        <h1>Ever Heard of Bowel Cancer?</h1>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#test-heading">Causes <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#test-heading">Effects <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#test-heading">Solutions <span
+                        class="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
 
     <article>
-
+        <h1>Bowel Cancer - Causes, Effects, Solutions</h1>
+        <h2 id="test-heading">Test Heading</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Convallis tellus id interdum velit. Pharetra vel turpis nunc eget lorem. Purus faucibus ornare
             suspendisse sed. In fermentum posuere urna nec tincidunt. Dictum sit amet justo donec enim diam vulputate ut
             pharetra. Sed sed risus pretium quam vulputate dignissim suspendisse in. Proin gravida hendrerit lectus a.
             Aliquam sem fringilla ut morbi tincidunt.</p>
 
-                <div>
-                    <span>Causes:</span><br>
-                    <ul>
-                        <li>point one</li>
-                        <li>point two</li>
-                        <li>point three</li>
-                    </ul>
-                </div>
+        <!-- Trigger the Modal -->
+        <img id="poster" src="./assets/img/poster.jpg" alt="Poster" style="width:100%;max-width:300px">
 
-                <div>
-                    <span>Effects:</span>
-                    <ul>
-                        <li>point one</li>
-                        <li>point two</li>
-                        <li>point three</li>
-                    </ul>
-                </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
-                <div>
-                    <span>Solutions:</span>
-                    <ul>
-                        <li>point one</li>
-                        <li>point two</li>
-                        <li>point three</li>
-                    </ul>
-                </div>
-            </div>
+            <!-- The Close Button -->
+            <span class="close">&#10006;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="full screen img">
         </div>
 
-        <!-- Trigger the Modal -->
-        <img id="poster" src="./assets/img/poster.jpg" alt="Poster" style="width:100%;max-width:600px">
+        <script src="./assets/js/script.js"></script>
 
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
+        <!-- bootstrap javascript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
 
-                <!-- The Close Button -->
-                <span class="close">&#10006;</span>
-
-                <!-- Modal Content (The Image) -->
-                <img class="modal-content" id="full screen img">
-            </div>
-
-            <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
