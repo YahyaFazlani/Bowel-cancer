@@ -104,7 +104,7 @@ html {
 }
 
 /* my css */
-#test-heading {
+#causes, #effects, #prevention {
     font-size: 25px !important;
     font-weight: bold;
 }
@@ -113,7 +113,7 @@ html {
     margin-bottom: 30px;
 }
 
-#test-heading:target {
+#causes:target, #effects:target, #prevention:target  {
     text-decoration: underline;
 }
 
