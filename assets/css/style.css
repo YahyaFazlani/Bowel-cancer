@@ -11,7 +11,6 @@ html {
     border-radius: 5px;
     cursor: zoom-in;
     transition: 0.3s;
-    margin-bottom: 30px;
 }
 
 #poster:hover {
@@ -105,6 +104,15 @@ html {
 }
 
 /* my css */
+#test-heading {
+    font-size: 25px !important;
+    font-weight: bold;
+}
+#main-heading {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
 #test-heading:target {
     text-decoration: underline;
 }
@@ -120,6 +128,7 @@ html {
     padding-left: 0.5em;
 }
 
+
 .nav-link.active:hover {
     text-decoration: underline;
     background-color: #5462dd;
@@ -131,5 +140,20 @@ html {
 }
 
 article {
-    margin: auto;
+    margin: 2em 3em;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-3 {
+    padding: 0;
+}
+
+.card {
+    position: sticky !important;
+    top: 10px;
+    height: fit-content;
 }
