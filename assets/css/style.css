@@ -111,13 +111,14 @@ body {
 #causes,
 #effects,
 #prevention {
-    font-size: 25px !important;
+    font-size: 25px;
     font-weight: bold;
 }
 
 #main-heading {
     font-weight: bolder;
     margin-bottom: 30px;
+    font-weight: 900;
 }
 
 #causes:target,
@@ -132,9 +133,9 @@ body {
 }
 
 .nav-link.active {
-    color: #D9D9D9 !important;
+    color: #D9D9D9;
     font-size: 1.3em;
-    margin: 0 !important;
+    margin: 0;
     padding-left: 0.5em;
 }
 
@@ -145,7 +146,7 @@ body {
 }
 
 .navbar {
-    margin: 0 !important;
+    margin: 0;
 }
 
 .navbar-toggler {
@@ -166,7 +167,7 @@ article {
 }
 
 .card {
-    position: sticky !important;
+    position: sticky;
     top: 70px;
     height: fit-content;
 }
@@ -181,18 +182,17 @@ article {
 
 @media only screen and (max-width:565px) {
     #main-heading {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width:375px) {
     #main-heading {
-        font-size: 23px !important;
-        font-weight: 900;
+        font-size: 23px;
     }
     #causes,
     #effects,
     #prevention {
-        font-size: 20px !important;
+        font-size: 20px;
     }
 }
