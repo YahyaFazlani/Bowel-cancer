@@ -148,6 +148,10 @@ body {
     margin: 0 !important;
 }
 
+.navbar-toggler {
+    border:0px;
+}
+
 article {
     margin: 2em 3em;
 }
