@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body { 
+    padding-top: 55px; 
+}
+
 /* Style the Image Used to Trigger the Modal */
 #poster {
     border-radius: 5px;
@@ -122,7 +126,7 @@ html {
     text-decoration: underline;
 }
 
-.bg-nav {
+.bg-primary {
     background-color: #6673E6 !important;
 }
 
@@ -140,7 +144,6 @@ html {
 }
 
 .navbar {
-    height: 3rem !important;
     margin: 0 !important;
 }
 
@@ -166,11 +169,8 @@ article {
 @media only screen and (max-width:992px) {
     .card {
         margin: 0 auto;
-        /* Added */
         float: none;
-        /* Added */
         margin-bottom: 10px;
-        /* Added */
     }
 }
 
@@ -181,9 +181,6 @@ article {
 }
 
 @media only screen and (max-width:375px) {
-    .nav-link.active {
-        font-size: 15px;
-    }
     #main-heading {
         font-size: 23px !important;
     }
@@ -191,11 +188,5 @@ article {
     #effects,
     #prevention {
         font-size: 20px !important;
-    }
-}
-
-@media only screen and (max-width:285px) {
-    .nav-link.active {
-        font-size: 12px;
     }
 }
