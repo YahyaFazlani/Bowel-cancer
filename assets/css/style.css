@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-scroll-padding-top: 80px;
     scroll-padding-top: 80px;
 }
 
@@ -187,9 +188,6 @@ article {
 }
 
 @media only screen and (max-width:375px) {
-    html {
-        scroll-padding-top: 200px;
-    }
     #main-heading {
         font-size: 23px;
     }
