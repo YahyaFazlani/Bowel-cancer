@@ -4,8 +4,8 @@
 
 html {
     scroll-behavior: smooth;
-    -webkit-scroll-padding-top: 200px;
-    scroll-padding-top: 200px;
+    -webkit-scroll-padding-top: 10vh;
+    scroll-padding-top: 10vh;
 }
 
 body { 
