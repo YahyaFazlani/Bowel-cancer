@@ -182,7 +182,6 @@ article {
     font-size: x-large;
     margin-left: 2vh;
 }
-
 @media only screen and (max-width:992px) {
     .card {
         margin: 0 auto;
