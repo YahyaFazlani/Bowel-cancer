@@ -13,8 +13,14 @@ img.onclick = function(){
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+var content = document.getElementsByClassName('col-lg-9')[0];
 
 // When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  fixedNav.style.zIndex = 1;
+}
+
 span.onclick = function() {
   modal.style.display = "none";
   fixedNav.style.zIndex = 1;
