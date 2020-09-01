@@ -130,7 +130,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #6673E6 !important;
+    background-color: #4479df !important;
     opacity: 0.9;
 }
 
@@ -144,7 +144,6 @@ body {
 
 .nav-link.active:hover {
     text-decoration: underline;
-    background-color: #5462dd;
 }
 
 .navbar {
